@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест для Хади</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="question" id="question">Где тут Менди?</div>
+
+    <div class="options">
+        <!-- Картинки Менди -->
+        <div class="option">
+            <img src="https://static.wikia.nocookie.net/brawlstars/images/6/66/Mandy_Brawl_Stars.png/revision/latest/scale-to-width-down/350?cb=20230526130231" onclick="checkAnswer(this, true)">
+        </div>
+        <div class="option">
+            <img src="https://cdn.pixabay.com/photo/2017/08/30/01/43/cat-2696363_960_720.jpg" onclick="checkAnswer(this, false)">
+        </div>
+        <div class="option">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Mayot_2022.jpg/800px-Mayot_2022.jpg" onclick="checkAnswer(this, false)">
+        </div>
+        <div class="option">
+            <img src="https://cdn.pixabay.com/photo/2017/07/16/22/47/volleyball-2508464_960_720.jpg" onclick="checkAnswer(this, false)">
+        </div>
+    </div>
+
+    <div class="result" id="result"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
